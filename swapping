@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+int a=10,b=3,temp;
+printf("before swapping:/n");
+printf("a=%d/n",a);
+printf("b=%d/n",b);
+temp=a;
+a=b;
+b=temp;
+printf("/nafter swaping:/n");
+printf("a=%d/n",a);
+printf("b=%d/n",b);
+getch();
+return 0;
+}
