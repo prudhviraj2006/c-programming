@@ -1,0 +1,23 @@
+#include<stdio.h>
+int main()
+{
+	int M=2,G=3,P=1,W=2000,B,MP=200,GP=400,PP=350,BB;
+	printf("********** bill receipt **********\n\n");
+	printf("wallet: %d\n\n",W);
+	printf("MANGOES PRICE=200\nGRAPES PRICE=400\nPOMOGRANATE PRICE=350\n\n");
+	printf("mangoes     %dx%d=%d\n",MP,M,MP*M);
+	printf("grapes      %dx%d=%d\n",GP,G,GP*G);
+	printf("pomogranate %dx%d=%d\n",PP,P,PP*P);
+	B=(MP*M+GP*G+PP*P);
+	BB= W-B;
+	if (BB<=0)
+	{
+		printf("Insufficient Balance = %d,BB");
+	}
+	else
+	{
+		printf("Balace : %d\n\n",BB);
+		printf("Thankyou Visit Again");
+	}
+	return 0;
+}
