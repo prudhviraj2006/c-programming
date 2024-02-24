@@ -1,0 +1,18 @@
+#include<stdio.h>
+int main()
+{
+	int B=200,W=500,BB;
+	printf("withdraw: %d\n\n",W);
+	printf("balance: %d\n\n",B);
+	BB= B-W;
+	if (BB<=0)
+	{
+		printf("Insufficient Balance = %d",BB);
+	}
+	else
+	{
+		printf("Balance : %d\n\n",B);
+		
+	}
+	return 0;
+}
