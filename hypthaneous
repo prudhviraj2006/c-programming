@@ -1,0 +1,9 @@
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+int hypthaneous,opp=3,adj=4;
+hypthaneous=sqrt(opp*opp+adj*adj);
+printf("hypthaneous=%d\n opposite=%d\n adjacent=%d\n",hypthaneous,opp,adj);
+return 0;
+}
