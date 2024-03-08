@@ -1,0 +1,13 @@
+#include<stdio.h>
+void sub();
+void sub()
+{
+	int a=50,b=20,sub;
+	sub=a-b;
+	printf("sub = %d\n",sub);
+}
+int main()
+{
+	sub();
+	return 0;
+}
