@@ -1,0 +1,18 @@
+#include<stdio.h>
+#include<string.h>
+struct car
+{
+  char make[50];
+  char model[50];
+  int year;
+}c;
+int main()
+{
+  struct car s1={"DOODGE","challenger",2012};
+  struct car s2={"BMW","m-series",2018};
+  printf("Data for the first car\n");
+  printf(" make:%s\n model:%s\n year:%d\n",s1.make,s1.model,s1.year);
+  printf("Data for the second car\n");
+  printf(" make:%s\n model:%s\n year:%d\n",s2.make,s2.model,s2.year);
+  return 0; 
+}
