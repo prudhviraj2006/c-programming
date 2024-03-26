@@ -1,0 +1,23 @@
+#include<stdio.h>
+#include<string.h>
+int main()
+  {
+    char line[150]="programming";
+    int vowels,consonants,i;
+  vowels=consonants=0;
+  for(i=0;line[i]!='\0';i++)
+  {
+    line[i]=(line[i]);
+    if(line[i]=='a'||line[i]=='e'||line[i]=='i'||line[i]=='o'||line[i]=='u')
+    {
+      vowels++;
+    }
+    else
+      {
+        consonants++;
+      }
+  }
+  printf("vowels:%d",vowels);
+  printf("\nconsonants:%d",consonants);
+  return 0;
+}
