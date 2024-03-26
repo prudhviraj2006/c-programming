@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<string.h>
+int main()
+{
+  char s[1000]="saveetha",c1='e',c2='o';
+  int i;
+  for(i=0;s[i];i++)
+  {
+    if(s[i]==c1)
+    {
+      s[i]=c2;
+    }
+  }
+  printf("after replace : %s",s);
+  return 0;
+}
