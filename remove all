@@ -1,0 +1,24 @@
+#include<stdio.h>
+#include<string.h>
+int main()
+{
+  char a[ ]="p r o g r a m m i n g";
+  int i,j,len;
+  len=sizeof(a)/sizeof(a[0]);
+  for(i=0;i<len;i++)
+  {
+    if(a[i]==' ')
+    {
+      for (j=i;j<len;j++)
+      {
+        a[j]=a[j+1];
+      }
+    
+      len--;
+    }
+   
+      
+  }
+  printf("After Deletion the string will be : %s",a);
+  return 0;
+}
