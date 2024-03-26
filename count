@@ -1,0 +1,27 @@
+#include<stdio.h>
+#include<string.h>
+int main()
+  {
+    char line[150]="saveetha school of engineering";
+    int words,i,space;
+ words=space=0;
+  for(i=0;line[i]!='\0';i++)
+  {
+    line[i]=(line[i]);
+   
+      if((line[i]>='a'&&line[i]<='z'))
+      {
+        words++;
+      }
+   
+    else
+      if(line[i]==' ')
+      {
+        space++;
+      }
+        
+  }
+  printf("words:%d",words);
+  printf("\nwhitespaces:%d",space);
+  return 0;
+}
